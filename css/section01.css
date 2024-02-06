@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#section01{
+    height: 800px;
+    background-image: url(../_imagens/estatua_justica.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+}
+
+#section01 header nav{
+    position: fixed;
+    width: 100vw;
+    background-color:transparent;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+
+#section01 header img{
+    height: 8vh;
+    margin-right: 10vw;
+}
+
+#section01 header button{
+    background: transparent;
+    border: none;
+    padding: 1vh;
+    color: white;
+    font-size: 1.25rem;
+    letter-spacing: 0.075rem;
+}
+
+#section01 #gradiente{
+    height: 800px;
+    background-image: linear-gradient(to right, rgba(0,51,79,1), rgba(0,51,79,0)70%);
+}
+
+#gradiente a{
+    text-decoration: none;
+    letter-spacing: 0.3rem;
+}
+
+#gradiente h1, h2, a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#gradiente #prisma-adv{
+    display: inline-block;
+    border: 2px solid white;
+    margin-bottom: 2vh;
+    padding: 2vh 3vw;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    cursor: default;
+}
+
+#gradiente h1{
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+}
+
+#gradiente h2{
+    font-size: 1.25rem;
+    margin-top: 2vh;
+    letter-spacing: 0.3rem;
+    font-weight: 100;
+    margin-bottom: 3vh;
+}
+
+#gradiente button{
+    background-color: #ffbd59 !important;
+    color: #503103 !important;
+    font-weight: 700;
+    padding: 3vh 8vw !important;
+    border-radius: 10px;
+
+}
+
+#gradiente #contato{
+    border: 1px solid white;
+}
+
+#gradiente div{
+    position: absolute;
+    left: 5vw;
+    bottom: 30vh;
+}
+
+#gradiente footer{
+    position: absolute;
+    display: flex;
+    height: 25vh;
+    background-color: rgba(0,51,79,0.8);
+    bottom: 0;
+    width: 100vw;
+}
+
+#gradiente footer div{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 0 3vw;
+    margin: 2vh 0vw;
+}
+
+#gradiente #assessoria{
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+#gradiente footer span{
+    color: #ffbd59;
+    font-size: 3rem;
+}
+
+#gradiente footer h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-weight: bolder;
+    color: white;
+    margin: 2vh 0;
+}
+
+#gradiente footer p{
+    color: white;
+    letter-spacing: 0.075rem;
+}
